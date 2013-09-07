@@ -37,9 +37,18 @@
         <a class="ws" href="//tools.pingdom.com"></a>
         <a class="ws" href="chrome://downloads/"></a>
         <a class="ws"></a>
+        <input class="spk" id="spk" type="text" onspeechchange="sayThis(this.value)" onwebkitspeechchange="sayThis(this.value)" x-webkit-speech>   
         
     </div>
-
+<!-- <form id="sf">
+<input type="search">    
+</form> -->
+        <script>
+            function sayThis(query){
+            window.location.replace('https://www.google.co.uk/search?q='+query+'&sourceid=hop');
+            
+            }
+        </script>
         <script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
         <script src="js/main.js"></script>
         <script src="js/vendor/midway.js"></script>
