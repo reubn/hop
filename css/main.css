@@ -3,6 +3,7 @@ width:70%;
 height:70%;    
 padding:1%;
 display: inline-block;
+min-width:362px;
 }
 .ws{
     position:relative;
