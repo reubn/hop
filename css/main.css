@@ -1,7 +1,6 @@
 #wrapper {
 width:70%;
 height:70%;    
-background-color:#f00;
 padding:1%;
 display: inline-block;
 }
@@ -12,14 +11,74 @@ display: inline-block;
     height: 0;
     padding-bottom: 15%;
     margin:2%;
-    background-color:#ffb400;
     display:inline-block;
+    background-size:cover;
 }
 
 .ws:nth-of-type(n+11){
     width: 5%;
     height: 0;
     padding-bottom: 5%; 
-    background-color:#ff0!important;
     left:4%;
+}
+.ws:nth-of-type(1){
+    background-image:url(../img/youtube.png);
+}
+.ws:nth-of-type(2){
+    background-image:url(../img/facebook.png);
+}
+.ws:nth-of-type(3){
+    background-image:url(../img/twitter.png);
+}
+.ws:nth-of-type(4){
+    background-image:url(../img/googleplus-2.png);
+}
+.ws:nth-of-type(5){
+    background-image:url(../img/behance.png);
+}
+.ws:nth-of-type(6){
+    background-image:url(../img/abduzeedo.png);
+}
+.ws:nth-of-type(7){
+    background-image:url(../img/dribbble.png);
+}
+.ws:nth-of-type(8){
+    background-image:url(../img/outlook.png);
+}
+.ws:nth-of-type(9){
+    background-image:url(../img/vimeo.png);
+}
+.ws:nth-of-type(10){
+    background-image:url(../img/bbc.png);
+    
+}
+.ws:nth-of-type(11){
+    background-image:url(../img/places.png);
+}
+.ws:nth-of-type(12){
+    background-image:url(../img/verge.png);
+}
+.ws:nth-of-type(13){
+    background-image:url(../img/wolfram.png);
+}
+.ws:nth-of-type(14){
+    background-image:url(../img/instagrama.png);
+}
+.ws:nth-of-type(15){
+    background-image:url(../img/gmagazine.png);
+}
+.ws:nth-of-type(16){
+    background-image:url(../img/dropbox.png);
+}
+.ws:nth-of-type(17){
+    background-image:url(../img/iplayer.png);
+}
+.ws:nth-of-type(18){
+    background-image:url(../img/downloads.png);
+}
+.ws:nth-of-type(19){
+    background-image:url(../img/pingdom.png);
+}
+.ws:nth-of-type(20){
+    background-image:url(../img/voicesearch.png);
 }
