@@ -108,3 +108,12 @@ display: inline-block;
     -ms-transform: scale(3.0, 3.0);
     transform: scale(3.0, 3.0);
 }
+
+::selection
+{
+color:#232323;
+}
+::-moz-selection
+{
+color:#232323;
+}
